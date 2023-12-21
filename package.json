@@ -1,0 +1,70 @@
+{
+  "name": "ernie-bot",
+  "displayName": "ERNIE Bot",
+  "description": "ERNIE Bot 百度AI",
+	"keywords": ["vscode", "plugin", "ernie-bot"],
+  "version": "0.0.1",
+  "publisher": "qyjs",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "icon": "images/favicon.ico",
+  "activationEvents": [
+    "onCommand:extension.sayHello"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "Chat-sidebar-view",
+          "title": "Ernie Bbot",
+          "icon": "images/favicon.ico"
+        }
+      ]
+    },
+    "views": {
+      "Chat-sidebar-view": [
+        {
+          "type": "webview",
+          "id": "Chat-sidebar",
+          "name": " Ernie Bbot",
+          "icon": "images/favicon.ico",
+          "contextualTitle": "Ernie Bbot"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "pnpm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "pnpm run compile && pnpm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "18.x",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3",
+    "@vscode/test-cli": "^0.0.4",
+    "@vscode/test-electron": "^2.3.8"
+  },
+  "license": "SEE LICENSE IN LICENSE.txt",
+	"bugs": {
+		"url": "https://github.com/sxei/vscode-plugin-demo/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sxei/vscode-plugin-demo"
+	},
+	"homepage": "https://github.com/sxei/vscode-plugin-demo/blob/master/README.md"
+}
