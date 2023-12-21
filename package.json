@@ -3,7 +3,7 @@
   "displayName": "ERNIE Bot",
   "description": "ERNIE Bot",
 	"keywords": ["vscode", "plugin", "ernie-bot"],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "qyjs",
   "engines": {
     "vscode": "^1.85.0"
@@ -22,7 +22,7 @@
       "activitybar": [
         {
           "id": "Chat-sidebar-view",
-          "title": "Ernie Bbot",
+          "title": "Ernie Bot",
           "icon": "images/icon1.png"
         }
       ]
@@ -32,9 +32,9 @@
         {
           "type": "webview",
           "id": "Chat-sidebar",
-          "name": " Ernie Bbot",
+          "name": " Ernie Bot",
           "icon": "images/icon1.png",
-          "contextualTitle": "Ernie Bbot"
+          "contextualTitle": "Ernie Bot"
         }
       ]
     }
