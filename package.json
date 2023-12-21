@@ -11,7 +11,7 @@
   "categories": [
     "Other"
   ],
-  "icon": "images/favicon.ico",
+  "icon": "images/icon1.png",
   "activationEvents": [
     "onCommand:extension.sayHello"
   ],
@@ -23,7 +23,7 @@
         {
           "id": "Chat-sidebar-view",
           "title": "Ernie Bbot",
-          "icon": "images/favicon.ico"
+          "icon": "images/icon1.png"
         }
       ]
     },
@@ -33,7 +33,7 @@
           "type": "webview",
           "id": "Chat-sidebar",
           "name": " Ernie Bbot",
-          "icon": "images/favicon.ico",
+          "icon": "images/icon1.png",
           "contextualTitle": "Ernie Bbot"
         }
       ]
@@ -57,14 +57,5 @@
     "typescript": "^5.3.3",
     "@vscode/test-cli": "^0.0.4",
     "@vscode/test-electron": "^2.3.8"
-  },
-  "license": "SEE LICENSE IN LICENSE.txt",
-	"bugs": {
-		"url": "https://github.com/sxei/vscode-plugin-demo/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/sxei/vscode-plugin-demo"
-	},
-	"homepage": "https://github.com/sxei/vscode-plugin-demo/blob/master/README.md"
+  }
 }
