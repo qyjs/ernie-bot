@@ -1,9 +1,9 @@
 # Change Log
 
-All notable changes to the "ernie-bot" extension will be documented in this file.
+## vsce package
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## vsce publish
 
-## [Unreleased]
-
-- Initial release
+```js
+gsqsd6haz7kte43bxbxofpxis54cucscq4i22s5be76ieq3t4awq
+```

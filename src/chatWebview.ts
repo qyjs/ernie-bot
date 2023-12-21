@@ -78,7 +78,7 @@ export class ChatWebview implements WebviewViewProvider {
       });
      </script>
         <div class="outer">
-           <iframe id='WebviewIframe' class="webView_iframe" sandbox="allow-scripts allow-same-origin allow-forms allow-pointer-lock allow-downloads" allow="cross-origin-isolated; clipboard-read; clipboard-write;" src="http://localhost:5173/"></iframe>
+           <iframe id='WebviewIframe' class="webView_iframe" sandbox="allow-scripts allow-same-origin allow-forms allow-pointer-lock allow-downloads" allow="cross-origin-isolated; clipboard-read; clipboard-write;" src="https://yiyan.baidu.com/"></iframe>
         </div>
     </body>
     </html>

@@ -1,9 +1,9 @@
 {
   "name": "ernie-bot",
   "displayName": "ERNIE Bot",
-  "description": "ERNIE Bot 百度AI",
+  "description": "ERNIE Bot",
 	"keywords": ["vscode", "plugin", "ernie-bot"],
-  "version": "0.0.1",
+  "version": "1.0.0",
   "publisher": "qyjs",
   "engines": {
     "vscode": "^1.85.0"
@@ -40,10 +40,10 @@
     }
   },
   "scripts": {
-    "vscode:prepublish": "yarn run compile",
+    "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
-    "pretest": "yarn run compile && yarn run lint",
+    "pretest": "npm run compile && npm run lint",
     "lint": "eslint src --ext ts",
     "test": "vscode-test"
   },
