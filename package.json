@@ -1,9 +1,9 @@
 {
   "name": "ernie-bot",
-  "displayName": "ERNIE Bot",
-  "description": "ERNIE Bot",
+  "displayName": "Ernie Bot",
+  "description": "Chat ai",
 	"keywords": ["vscode", "plugin", "ernie-bot"],
-  "version": "1.0.1",
+  "version": "1.0.3",
   "publisher": "qyjs",
   "engines": {
     "vscode": "^1.85.0"
@@ -16,6 +16,16 @@
     "onCommand:extension.sayHello"
   ],
   "main": "./out/extension.js",
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "build": "vsce package",
+    "publish": "vsce publish",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "vscode-test"
+  },
   "contributes": {
     "commands": [],
     "viewsContainers": {
@@ -38,14 +48,6 @@
         }
       ]
     }
-  },
-  "scripts": {
-    "vscode:prepublish": "npm run compile",
-    "compile": "tsc -p ./",
-    "watch": "tsc -watch -p ./",
-    "pretest": "npm run compile && npm run lint",
-    "lint": "eslint src --ext ts",
-    "test": "vscode-test"
   },
   "devDependencies": {
     "@types/vscode": "^1.85.0",

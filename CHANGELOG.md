@@ -1,9 +1,6 @@
 # Change Log
 
-## vsce package
-
-## vsce publish
-
-```js
-gsqsd6haz7kte43bxbxofpxis54cucscq4i22s5be76ieq3t4awq
-```
+- 2022.12.22: 1.0.3 fix 报错
+- 2022.12.22: 1.0.2 对交互进行了大量的优化
+- 2022.12.21: 1.0.1 更新国内模式，免翻墙，免登录
+- 2022.12.21: 1.0.0 修复一些问题
